@@ -17,5 +17,13 @@ export class AppService {
       age: 199
     }
   }
+
+  getJson2() {
+    return {
+      name: 'clem',
+      lastname: 'perr',
+      age: 19
+    }
+  }
 }
 
